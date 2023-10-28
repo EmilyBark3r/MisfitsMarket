@@ -1,0 +1,23 @@
+.socialBar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin: 35px 0px;
+}
+.socialBar a img {
+    max-width: 50px;
+    margin: 0px auto;
+}
+
+.underSocialBar {
+    display: flex;
+    flex-direction: column;
+}
+.underSocialBar a {
+    text-decoration: none;
+    padding: 10px 0px;
+}
+footer {
+    text-align: right;
+    margin: 35px 0px;
+}
