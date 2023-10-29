@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
 * {
     font-family: 'Work Sans', sans-serif;
-    /* max-width: 700px;
-    align-items: center; */
    
+   
+}
+
+.divider-blob{
+    width: 800px;
+    margin-bottom: -10px;
+}
+
+.desktop{
+    display: none;
 }
 
 body{
@@ -28,11 +36,52 @@ img{
 }
 
 button{
-    display: flex;
+    display: grid;
     margin: auto;
     padding: 10px;
     border-radius: 5px;
     width: 80%;
     border: black 2px solid;
-    
+    text-align: center;
 }
+
+p {
+    font-size: 0.8em;
+}
+
+.join-section{
+    display: grid;
+    grid-template-rows: 1 2 1;
+}
+
+.join-img{
+    grid-row: 1;
+}
+
+.body-small h3{
+    grid-row: 2;
+    color: red;
+}
+
+.div-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-card{
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: #eee7ca 5px solid;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#arrow{
+    display: none;
+}
+
+#checklist{
+    list-style-image: url('https://static.misfitsmarket.com/images/Green-check.svg');
+  }
